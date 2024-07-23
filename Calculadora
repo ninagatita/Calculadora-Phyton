@@ -1,0 +1,9 @@
+num1 = int(input('insira um valor: '))
+num2 = int(input('insira outro valor: '))
+simbolo = input('escolha uma operação matemática: ')
+match(simbolo):
+    case '+': resultado = num1 + num2
+    case '-': resultado = num1 - num2
+    case '*': resultado = num1 * num2
+    case '/': resultado = num1 / num2
+print(f'sua conta final é {num1} {simbolo} {num2} = {resultado}')
